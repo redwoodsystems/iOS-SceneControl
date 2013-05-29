@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E277346615AE915600982799 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E277346515AE915600982799 /* app_icon@2x.png */; };
+		E277347015AE97B300982799 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E277346F15AE97B300982799 /* Default.png */; };
+		E28E92C615A6B9D400802F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28E92C515A6B9D400802F85 /* UIKit.framework */; };
+		E28E92C815A6B9D400802F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28E92C715A6B9D400802F85 /* Foundation.framework */; };
+		E28E92CA15A6B9D400802F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28E92C915A6B9D400802F85 /* CoreGraphics.framework */; };
+		E28E930A15A6BB6E00802F85 /* RWSLightingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E930415A6BB6E00802F85 /* RWSLightingViewController.xib */; };
+		E28E931915A6BB8200802F85 /* RWSLocSrchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E930F15A6BB8200802F85 /* RWSLocSrchViewController.xib */; };
+		E28E932D15A6BC2700802F85 /* RWSTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E932B15A6BC2700802F85 /* RWSTabBarController.xib */; };
+		E28E934715A6BC5400802F85 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E932E15A6BC5400802F85 /* app_icon.png */; };
+		E28E934815A6BC5400802F85 /* ApplyWide_Inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E932F15A6BC5400802F85 /* ApplyWide_Inactive.png */; };
+		E28E934915A6BC5400802F85 /* ApplyWide_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933015A6BC5400802F85 /* ApplyWide_Up.png */; };
+		E28E934A15A6BC5400802F85 /* Lighting_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933115A6BC5400802F85 /* Lighting_s1.png */; };
+		E28E934B15A6BC5400802F85 /* Lighting_s1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933215A6BC5400802F85 /* Lighting_s1@2x.png */; };
+		E28E934C15A6BC5400802F85 /* Location_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933315A6BC5400802F85 /* Location_s1.png */; };
+		E28E934D15A6BC5400802F85 /* Location_s1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933415A6BC5400802F85 /* Location_s1@2x.png */; };
+		E28E934E15A6BC5400802F85 /* Settings_s1.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933515A6BC5400802F85 /* Settings_s1.png */; };
+		E28E934F15A6BC5400802F85 /* Settings_s1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933615A6BC5400802F85 /* Settings_s1@2x.png */; };
+		E28E935415A6BC5400802F85 /* RedwoodLogoiPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933B15A6BC5400802F85 /* RedwoodLogoiPhone.png */; };
+		E28E935515A6BC5400802F85 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933C15A6BC5400802F85 /* Refresh.png */; };
+		E28E935615A6BC5400802F85 /* RedwoodLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933D15A6BC5400802F85 /* RedwoodLogo.png */; };
+		E28E935715A6BC5400802F85 /* Redwood_Systems_logo_tag_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933E15A6BC5400802F85 /* Redwood_Systems_logo_tag_blue.png */; };
+		E28E935815A6BC5400802F85 /* RWS_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E28E933F15A6BC5400802F85 /* RWS_Logo.png */; };
+		E28E935A15A6BC5400802F85 /* Refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = E28E934115A6BC5400802F85 /* Refresh.gif */; };
+		E28E935D15A6BC5400802F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E28E934415A6BC5400802F85 /* InfoPlist.strings */; };
+		E28E936115A6C07200802F85 /* RWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E932A15A6BC2700802F85 /* RWSAppDelegate.m */; };
+		E28E936315A6C07B00802F85 /* RWSSettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E931F15A6BB9500802F85 /* RWSSettingsStore.m */; };
+		E28E936515A6C07B00802F85 /* RWSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E932115A6BB9500802F85 /* RWSSettingsViewController.m */; };
+		E28E936715A6C08200802F85 /* RWSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E932415A6BB9500802F85 /* RWSSettings.m */; };
+		E28E936915A6C08E00802F85 /* RWSLocSrchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E930E15A6BB8200802F85 /* RWSLocSrchViewController.m */; };
+		E28E936C15A6C08E00802F85 /* RWSLocUINavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E931115A6BB8200802F85 /* RWSLocUINavViewController.m */; };
+		E28E936E15A6C08E00802F85 /* RWSLocationItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E931315A6BB8200802F85 /* RWSLocationItemStore.m */; };
+		E28E937015A6C08E00802F85 /* RWSLocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E931515A6BB8200802F85 /* RWSLocationItem.m */; };
+		E28E937215A6C08E00802F85 /* RWSLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E931715A6BB8200802F85 /* RWSLocationsViewController.m */; };
+		E28E937415A6C09A00802F85 /* RWSSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28E932215A6BB9500802F85 /* RWSSettingsViewController.xib */; };
+		E28E937615A6C0E000802F85 /* RWSLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E930315A6BB6E00802F85 /* RWSLightingViewController.m */; };
+		E28E937915A6C0E000802F85 /* RWSSceneItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E930615A6BB6E00802F85 /* RWSSceneItem.m */; };
+		E28E937B15A6C0E000802F85 /* RWSLightingNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E930815A6BB6E00802F85 /* RWSLightingNavViewController.m */; };
+		E28E937F15A6C0FB00802F85 /* NSString+StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E92F215A6BB5B00802F85 /* NSString+StringUtils.m */; };
+		E28E938315A6C0FB00802F85 /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E92F615A6BB5B00802F85 /* NSString+Encode.m */; };
+		E28E938515A6C0FB00802F85 /* RWSConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E92F815A6BB5B00802F85 /* RWSConnection.m */; };
+		E28E938715A6C0FB00802F85 /* RWSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E92FA15A6BB5B00802F85 /* RWSChannel.m */; };
+		E28E938915A6C10E00802F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E934515A6BC5400802F85 /* main.m */; };
+		E2B1C2FA15BC204D008D50B9 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B1C2F915BC204D008D50B9 /* iTunesArtwork.png */; };
+		E2D51F3415B51DB100E5874C /* RWSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D51F3315B51DB100E5874C /* RWSUtil.m */; };
+		E2F7130915AF58D400E2D894 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F7130815AF58D400E2D894 /* Default@2x.png */; };
+		E2F7130B15AFC28B00E2D894 /* RedwoodLogoiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F7130A15AFC28B00E2D894 /* RedwoodLogoiPhone@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E21F71A915B8522A00F7C69B /* RWSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSDebug.h; sourceTree = "<group>"; };
+		E277346515AE915600982799 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_icon@2x.png"; sourceTree = "<group>"; };
+		E277346F15AE97B300982799 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E28E92C115A6B9D400802F85 /* rController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28E92C515A6B9D400802F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E28E92C715A6B9D400802F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E28E92C915A6B9D400802F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E28E92F115A6BB5B00802F85 /* NSString+StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtils.h"; sourceTree = "<group>"; };
+		E28E92F215A6BB5B00802F85 /* NSString+StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtils.m"; sourceTree = "<group>"; };
+		E28E92F515A6BB5B00802F85 /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		E28E92F615A6BB5B00802F85 /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		E28E92F715A6BB5B00802F85 /* RWSConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSConnection.h; sourceTree = "<group>"; };
+		E28E92F815A6BB5B00802F85 /* RWSConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSConnection.m; sourceTree = "<group>"; };
+		E28E92F915A6BB5B00802F85 /* RWSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSChannel.h; sourceTree = "<group>"; };
+		E28E92FA15A6BB5B00802F85 /* RWSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSChannel.m; sourceTree = "<group>"; };
+		E28E92FB15A6BB5B00802F85 /* JSONSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSerializable.h; sourceTree = "<group>"; };
+		E28E930215A6BB6E00802F85 /* RWSLightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLightingViewController.h; sourceTree = "<group>"; };
+		E28E930315A6BB6E00802F85 /* RWSLightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLightingViewController.m; sourceTree = "<group>"; };
+		E28E930415A6BB6E00802F85 /* RWSLightingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWSLightingViewController.xib; sourceTree = "<group>"; };
+		E28E930515A6BB6E00802F85 /* RWSSceneItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSSceneItem.h; sourceTree = "<group>"; };
+		E28E930615A6BB6E00802F85 /* RWSSceneItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSSceneItem.m; sourceTree = "<group>"; };
+		E28E930715A6BB6E00802F85 /* RWSLightingNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLightingNavViewController.h; sourceTree = "<group>"; };
+		E28E930815A6BB6E00802F85 /* RWSLightingNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLightingNavViewController.m; sourceTree = "<group>"; };
+		E28E930D15A6BB8200802F85 /* RWSLocSrchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLocSrchViewController.h; sourceTree = "<group>"; };
+		E28E930E15A6BB8200802F85 /* RWSLocSrchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLocSrchViewController.m; sourceTree = "<group>"; };
+		E28E930F15A6BB8200802F85 /* RWSLocSrchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWSLocSrchViewController.xib; sourceTree = "<group>"; };
+		E28E931015A6BB8200802F85 /* RWSLocUINavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLocUINavViewController.h; sourceTree = "<group>"; };
+		E28E931115A6BB8200802F85 /* RWSLocUINavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLocUINavViewController.m; sourceTree = "<group>"; };
+		E28E931215A6BB8200802F85 /* RWSLocationItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLocationItemStore.h; sourceTree = "<group>"; };
+		E28E931315A6BB8200802F85 /* RWSLocationItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLocationItemStore.m; sourceTree = "<group>"; };
+		E28E931415A6BB8200802F85 /* RWSLocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLocationItem.h; sourceTree = "<group>"; };
+		E28E931515A6BB8200802F85 /* RWSLocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLocationItem.m; sourceTree = "<group>"; };
+		E28E931615A6BB8200802F85 /* RWSLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSLocationsViewController.h; sourceTree = "<group>"; };
+		E28E931715A6BB8200802F85 /* RWSLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSLocationsViewController.m; sourceTree = "<group>"; };
+		E28E931E15A6BB9500802F85 /* RWSSettingsStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSSettingsStore.h; sourceTree = "<group>"; };
+		E28E931F15A6BB9500802F85 /* RWSSettingsStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSSettingsStore.m; sourceTree = "<group>"; };
+		E28E932015A6BB9500802F85 /* RWSSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSSettingsViewController.h; sourceTree = "<group>"; };
+		E28E932115A6BB9500802F85 /* RWSSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSSettingsViewController.m; sourceTree = "<group>"; };
+		E28E932215A6BB9500802F85 /* RWSSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RWSSettingsViewController.xib; sourceTree = "<group>"; };
+		E28E932315A6BB9500802F85 /* RWSSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWSSettings.h; sourceTree = "<group>"; };
+		E28E932415A6BB9500802F85 /* RWSSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWSSettings.m; sourceTree = "<group>"; };
+		E28E932915A6BC2700802F85 /* RWSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSAppDelegate.h; sourceTree = "<group>"; };
+		E28E932A15A6BC2700802F85 /* RWSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSAppDelegate.m; sourceTree = "<group>"; };
+		E28E932B15A6BC2700802F85 /* RWSTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWSTabBarController.xib; sourceTree = "<group>"; };
+		E28E932E15A6BC5400802F85 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		E28E932F15A6BC5400802F85 /* ApplyWide_Inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ApplyWide_Inactive.png; sourceTree = "<group>"; };
+		E28E933015A6BC5400802F85 /* ApplyWide_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ApplyWide_Up.png; sourceTree = "<group>"; };
+		E28E933115A6BC5400802F85 /* Lighting_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lighting_s1.png; sourceTree = "<group>"; };
+		E28E933215A6BC5400802F85 /* Lighting_s1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lighting_s1@2x.png"; sourceTree = "<group>"; };
+		E28E933315A6BC5400802F85 /* Location_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_s1.png; sourceTree = "<group>"; };
+		E28E933415A6BC5400802F85 /* Location_s1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location_s1@2x.png"; sourceTree = "<group>"; };
+		E28E933515A6BC5400802F85 /* Settings_s1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings_s1.png; sourceTree = "<group>"; };
+		E28E933615A6BC5400802F85 /* Settings_s1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings_s1@2x.png"; sourceTree = "<group>"; };
+		E28E933B15A6BC5400802F85 /* RedwoodLogoiPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedwoodLogoiPhone.png; sourceTree = "<group>"; };
+		E28E933C15A6BC5400802F85 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		E28E933D15A6BC5400802F85 /* RedwoodLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedwoodLogo.png; sourceTree = "<group>"; };
+		E28E933E15A6BC5400802F85 /* Redwood_Systems_logo_tag_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Redwood_Systems_logo_tag_blue.png; sourceTree = "<group>"; };
+		E28E933F15A6BC5400802F85 /* RWS_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RWS_Logo.png; sourceTree = "<group>"; };
+		E28E934115A6BC5400802F85 /* Refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Refresh.gif; sourceTree = "<group>"; };
+		E28E934315A6BC5400802F85 /* Redwood-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Redwood-Info.plist"; sourceTree = "<group>"; };
+		E28E934415A6BC5400802F85 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E28E934515A6BC5400802F85 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E28E934615A6BC5400802F85 /* Redwood-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Redwood-Prefix.pch"; sourceTree = "<group>"; };
+		E2B1C2F915BC204D008D50B9 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		E2D51F3215B51DB100E5874C /* RWSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSUtil.h; sourceTree = "<group>"; };
+		E2D51F3315B51DB100E5874C /* RWSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSUtil.m; sourceTree = "<group>"; };
+		E2F7130815AF58D400E2D894 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E2F7130A15AFC28B00E2D894 /* RedwoodLogoiPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RedwoodLogoiPhone@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28E92BE15A6B9D400802F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E92C615A6B9D400802F85 /* UIKit.framework in Frameworks */,
+				E28E92C815A6B9D400802F85 /* Foundation.framework in Frameworks */,
+				E28E92CA15A6B9D400802F85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28E92B615A6B9D400802F85 = {
+			isa = PBXGroup;
+			children = (
+				E28E92CB15A6B9D400802F85 /* Redwood */,
+				E28E92C415A6B9D400802F85 /* Frameworks */,
+				E28E92C215A6B9D400802F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28E92C215A6B9D400802F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28E92C115A6B9D400802F85 /* rController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28E92C415A6B9D400802F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E28E92C515A6B9D400802F85 /* UIKit.framework */,
+				E28E92C715A6B9D400802F85 /* Foundation.framework */,
+				E28E92C915A6B9D400802F85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28E92CB15A6B9D400802F85 /* Redwood */ = {
+			isa = PBXGroup;
+			children = (
+				E28E932915A6BC2700802F85 /* RWSAppDelegate.h */,
+				E28E932A15A6BC2700802F85 /* RWSAppDelegate.m */,
+				E28E932B15A6BC2700802F85 /* RWSTabBarController.xib */,
+				E28E932515A6BBAC00802F85 /* Settings */,
+				E28E932615A6BBCD00802F85 /* Locations */,
+				E28E932715A6BBDE00802F85 /* Lighting */,
+				E28E932815A6BBFB00802F85 /* Util */,
+				E28E935F15A6BC6D00802F85 /* SupportingFiles */,
+			);
+			path = Redwood;
+			sourceTree = "<group>";
+		};
+		E28E932515A6BBAC00802F85 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E28E931E15A6BB9500802F85 /* RWSSettingsStore.h */,
+				E28E931F15A6BB9500802F85 /* RWSSettingsStore.m */,
+				E28E932015A6BB9500802F85 /* RWSSettingsViewController.h */,
+				E28E932115A6BB9500802F85 /* RWSSettingsViewController.m */,
+				E28E932215A6BB9500802F85 /* RWSSettingsViewController.xib */,
+				E28E932315A6BB9500802F85 /* RWSSettings.h */,
+				E28E932415A6BB9500802F85 /* RWSSettings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		E28E932615A6BBCD00802F85 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				E28E930D15A6BB8200802F85 /* RWSLocSrchViewController.h */,
+				E28E930E15A6BB8200802F85 /* RWSLocSrchViewController.m */,
+				E28E930F15A6BB8200802F85 /* RWSLocSrchViewController.xib */,
+				E28E931015A6BB8200802F85 /* RWSLocUINavViewController.h */,
+				E28E931115A6BB8200802F85 /* RWSLocUINavViewController.m */,
+				E28E931215A6BB8200802F85 /* RWSLocationItemStore.h */,
+				E28E931315A6BB8200802F85 /* RWSLocationItemStore.m */,
+				E28E931415A6BB8200802F85 /* RWSLocationItem.h */,
+				E28E931515A6BB8200802F85 /* RWSLocationItem.m */,
+				E28E931615A6BB8200802F85 /* RWSLocationsViewController.h */,
+				E28E931715A6BB8200802F85 /* RWSLocationsViewController.m */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		E28E932715A6BBDE00802F85 /* Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				E28E930215A6BB6E00802F85 /* RWSLightingViewController.h */,
+				E28E930315A6BB6E00802F85 /* RWSLightingViewController.m */,
+				E28E930415A6BB6E00802F85 /* RWSLightingViewController.xib */,
+				E28E930515A6BB6E00802F85 /* RWSSceneItem.h */,
+				E28E930615A6BB6E00802F85 /* RWSSceneItem.m */,
+				E28E930715A6BB6E00802F85 /* RWSLightingNavViewController.h */,
+				E28E930815A6BB6E00802F85 /* RWSLightingNavViewController.m */,
+			);
+			name = Lighting;
+			sourceTree = "<group>";
+		};
+		E28E932815A6BBFB00802F85 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E28E92F115A6BB5B00802F85 /* NSString+StringUtils.h */,
+				E28E92F215A6BB5B00802F85 /* NSString+StringUtils.m */,
+				E28E92F515A6BB5B00802F85 /* NSString+Encode.h */,
+				E28E92F615A6BB5B00802F85 /* NSString+Encode.m */,
+				E28E92F715A6BB5B00802F85 /* RWSConnection.h */,
+				E28E92F815A6BB5B00802F85 /* RWSConnection.m */,
+				E28E92F915A6BB5B00802F85 /* RWSChannel.h */,
+				E28E92FA15A6BB5B00802F85 /* RWSChannel.m */,
+				E28E92FB15A6BB5B00802F85 /* JSONSerializable.h */,
+				E2D51F3215B51DB100E5874C /* RWSUtil.h */,
+				E2D51F3315B51DB100E5874C /* RWSUtil.m */,
+				E21F71A915B8522A00F7C69B /* RWSDebug.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		E28E935F15A6BC6D00802F85 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E2B1C2F915BC204D008D50B9 /* iTunesArtwork.png */,
+				E277346F15AE97B300982799 /* Default.png */,
+				E2F7130815AF58D400E2D894 /* Default@2x.png */,
+				E28E932E15A6BC5400802F85 /* app_icon.png */,
+				E277346515AE915600982799 /* app_icon@2x.png */,
+				E28E932F15A6BC5400802F85 /* ApplyWide_Inactive.png */,
+				E28E933015A6BC5400802F85 /* ApplyWide_Up.png */,
+				E28E933115A6BC5400802F85 /* Lighting_s1.png */,
+				E28E933215A6BC5400802F85 /* Lighting_s1@2x.png */,
+				E28E933315A6BC5400802F85 /* Location_s1.png */,
+				E28E933415A6BC5400802F85 /* Location_s1@2x.png */,
+				E28E933515A6BC5400802F85 /* Settings_s1.png */,
+				E28E933615A6BC5400802F85 /* Settings_s1@2x.png */,
+				E28E933B15A6BC5400802F85 /* RedwoodLogoiPhone.png */,
+				E2F7130A15AFC28B00E2D894 /* RedwoodLogoiPhone@2x.png */,
+				E28E933C15A6BC5400802F85 /* Refresh.png */,
+				E28E933D15A6BC5400802F85 /* RedwoodLogo.png */,
+				E28E933E15A6BC5400802F85 /* Redwood_Systems_logo_tag_blue.png */,
+				E28E933F15A6BC5400802F85 /* RWS_Logo.png */,
+				E28E934115A6BC5400802F85 /* Refresh.gif */,
+				E28E934315A6BC5400802F85 /* Redwood-Info.plist */,
+				E28E934415A6BC5400802F85 /* InfoPlist.strings */,
+				E28E934515A6BC5400802F85 /* main.m */,
+				E28E934615A6BC5400802F85 /* Redwood-Prefix.pch */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28E92C015A6B9D400802F85 /* rController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28E92D915A6B9D400802F85 /* Build configuration list for PBXNativeTarget "rController" */;
+			buildPhases = (
+				E28E92BD15A6B9D400802F85 /* Sources */,
+				E28E92BE15A6B9D400802F85 /* Frameworks */,
+				E28E92BF15A6B9D400802F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rController;
+			productName = Redwood;
+			productReference = E28E92C115A6B9D400802F85 /* rController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28E92B815A6B9D400802F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RWS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Redwood Systems Inc.";
+			};
+			buildConfigurationList = E28E92BB15A6B9D400802F85 /* Build configuration list for PBXProject "Redwood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E28E92B615A6B9D400802F85;
+			productRefGroup = E28E92C215A6B9D400802F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28E92C015A6B9D400802F85 /* rController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28E92BF15A6B9D400802F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E930A15A6BB6E00802F85 /* RWSLightingViewController.xib in Resources */,
+				E28E937415A6C09A00802F85 /* RWSSettingsViewController.xib in Resources */,
+				E28E932D15A6BC2700802F85 /* RWSTabBarController.xib in Resources */,
+				E28E931915A6BB8200802F85 /* RWSLocSrchViewController.xib in Resources */,
+				E28E934715A6BC5400802F85 /* app_icon.png in Resources */,
+				E28E934815A6BC5400802F85 /* ApplyWide_Inactive.png in Resources */,
+				E28E934915A6BC5400802F85 /* ApplyWide_Up.png in Resources */,
+				E28E934A15A6BC5400802F85 /* Lighting_s1.png in Resources */,
+				E28E934B15A6BC5400802F85 /* Lighting_s1@2x.png in Resources */,
+				E28E934C15A6BC5400802F85 /* Location_s1.png in Resources */,
+				E28E934D15A6BC5400802F85 /* Location_s1@2x.png in Resources */,
+				E28E934E15A6BC5400802F85 /* Settings_s1.png in Resources */,
+				E28E934F15A6BC5400802F85 /* Settings_s1@2x.png in Resources */,
+				E28E935415A6BC5400802F85 /* RedwoodLogoiPhone.png in Resources */,
+				E28E935515A6BC5400802F85 /* Refresh.png in Resources */,
+				E28E935615A6BC5400802F85 /* RedwoodLogo.png in Resources */,
+				E28E935715A6BC5400802F85 /* Redwood_Systems_logo_tag_blue.png in Resources */,
+				E28E935815A6BC5400802F85 /* RWS_Logo.png in Resources */,
+				E28E935A15A6BC5400802F85 /* Refresh.gif in Resources */,
+				E28E935D15A6BC5400802F85 /* InfoPlist.strings in Resources */,
+				E277346615AE915600982799 /* app_icon@2x.png in Resources */,
+				E277347015AE97B300982799 /* Default.png in Resources */,
+				E2F7130915AF58D400E2D894 /* Default@2x.png in Resources */,
+				E2F7130B15AFC28B00E2D894 /* RedwoodLogoiPhone@2x.png in Resources */,
+				E2B1C2FA15BC204D008D50B9 /* iTunesArtwork.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28E92BD15A6B9D400802F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28E938915A6C10E00802F85 /* main.m in Sources */,
+				E28E937F15A6C0FB00802F85 /* NSString+StringUtils.m in Sources */,
+				E28E938315A6C0FB00802F85 /* NSString+Encode.m in Sources */,
+				E28E938515A6C0FB00802F85 /* RWSConnection.m in Sources */,
+				E28E938715A6C0FB00802F85 /* RWSChannel.m in Sources */,
+				E28E937615A6C0E000802F85 /* RWSLightingViewController.m in Sources */,
+				E28E937915A6C0E000802F85 /* RWSSceneItem.m in Sources */,
+				E28E937B15A6C0E000802F85 /* RWSLightingNavViewController.m in Sources */,
+				E28E936915A6C08E00802F85 /* RWSLocSrchViewController.m in Sources */,
+				E28E936C15A6C08E00802F85 /* RWSLocUINavViewController.m in Sources */,
+				E28E936E15A6C08E00802F85 /* RWSLocationItemStore.m in Sources */,
+				E28E937015A6C08E00802F85 /* RWSLocationItem.m in Sources */,
+				E28E937215A6C08E00802F85 /* RWSLocationsViewController.m in Sources */,
+				E28E936715A6C08200802F85 /* RWSSettings.m in Sources */,
+				E28E936315A6C07B00802F85 /* RWSSettingsStore.m in Sources */,
+				E28E936515A6C07B00802F85 /* RWSSettingsViewController.m in Sources */,
+				E28E936115A6C07200802F85 /* RWSAppDelegate.m in Sources */,
+				E2D51F3415B51DB100E5874C /* RWSUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E28E92D715A6B9D400802F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vivek Phalak (H8334CWAT2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vivek Phalak (H8334CWAT2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0AC1DDE1-6B01-4E91-A606-6EC5629508AD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0AC1DDE1-6B01-4E91-A606-6EC5629508AD";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E28E92D815A6B9D400802F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		E28E92DA15A6B9D400802F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vivek Phalak (H8334CWAT2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vivek Phalak (H8334CWAT2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Redwood/Redwood-Prefix.pch";
+				INFOPLIST_FILE = "Redwood/Redwood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0AC1DDE1-6B01-4E91-A606-6EC5629508AD";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E28E92DB15A6B9D400802F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Redwood/Redwood-Prefix.pch";
+				INFOPLIST_FILE = "Redwood/Redwood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2B1C2FB15BC2169008D50B9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		E2B1C2FC15BC2169008D50B9 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Redwood/Redwood-Prefix.pch";
+				INFOPLIST_FILE = "Redwood/Redwood-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28E92BB15A6B9D400802F85 /* Build configuration list for PBXProject "Redwood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28E92D715A6B9D400802F85 /* Debug */,
+				E28E92D815A6B9D400802F85 /* Release */,
+				E2B1C2FB15BC2169008D50B9 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28E92D915A6B9D400802F85 /* Build configuration list for PBXNativeTarget "rController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28E92DA15A6B9D400802F85 /* Debug */,
+				E28E92DB15A6B9D400802F85 /* Release */,
+				E2B1C2FC15BC2169008D50B9 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E28E92B815A6B9D400802F85 /* Project object */;
+}
