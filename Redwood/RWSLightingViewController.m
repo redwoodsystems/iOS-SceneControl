@@ -21,7 +21,7 @@
 
 @implementation RWSLightingViewController
 
-@synthesize tableArray, myHeaderView;
+@synthesize tableArray, myHeaderView, myTableView;
 @synthesize cell0;
 @synthesize refreshIconView, refreshButton, locationName;
 @synthesize currentLocation;

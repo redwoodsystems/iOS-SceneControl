@@ -13,7 +13,9 @@
 @interface RWSLightingViewController : UITableViewController
 {
     UIView *myHeaderView;
-    
+
+    UITableView *myTableView;
+
     UITableViewCell *cell0;
     
     RWSChannel *channel;
@@ -27,6 +29,7 @@
 @property(nonatomic, strong) NSMutableArray *tableArray;
 @property (nonatomic, strong) IBOutlet UIView *myHeaderView;
 @property (nonatomic, strong) IBOutlet UITableViewCell *cell0;
+@property (nonatomic, strong) IBOutlet UITableView *myTableView;
 
 @property (nonatomic, weak) IBOutlet UIImageView *refreshIconView;
 @property (nonatomic, weak) IBOutlet UIButton *refreshButton;
